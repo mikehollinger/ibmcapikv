@@ -1,0 +1,7 @@
+        IBM CAPI Flash Block Library
+
+This package consists of the user-space exploiter of the cflash.ko Linux
+kernel module. It is built as a shared library, and provides a "super
+pipe" to underlying remote flash storage from user space.
+
+Compilation requires cflash_ioctl.h and cxl.h.
